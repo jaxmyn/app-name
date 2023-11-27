@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-register {
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.form-register label {
+    display: block;
+    margin-top: 20px;
+}
+
+.form-register input[type="text"],
+.form-register input[type="email"],
+.form-register input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.form-register button[type="submit"] {
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #900C3F ;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.form-register button[type="submit"]:hover {
+    background-color: #e84227;
+}
+
+
+
+
+
+
+
+.btn-delete {
+    width: 30%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #900C3F ;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+.btn-delete:hover {
+    background-color: #e84227;
+}
